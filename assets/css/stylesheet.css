@@ -1,0 +1,441 @@
+body{
+     font-family: 'Cinzel', serif;
+     overflow-x: hidden;
+     overflow-y: scroll;
+    }
+
+
+    #ipmain{
+      outline: none;
+      -webkit-box-shadow: inset 0 0 0px 9999px white;
+      border: 1px solid #1a6095;
+    }
+
+    #bt2:focus{
+      outline: none;
+      -webkit-box-shadow: inset 0 0 0px 9999px #1a6095;
+    }
+
+
+    @media (min-width: 1025px )  {
+         #ip1{
+           width : 100%;
+         }
+         #brand{
+           margin-top:-5px;
+           margin-right:80px;
+         }
+         #bt2{
+           width:70%;
+           height:45px;
+           background-color: #1a6095;
+         }
+         .navigate{
+           position: relative;
+         }
+         #cour{
+           height:594px;
+         }
+        }
+
+
+        @media (max-width: 1025px){
+          #ip1{
+            width : 100%;
+            margin-left: -10px;
+          }
+          #brand{
+            margin-top:-10px;
+          }
+          #bt2{
+            width:100%;
+            height:40px;
+            margin-top: 10px;
+            background-color:#1a6095;
+          }
+          #sp{
+            background-color: white;
+          }
+          #cour{
+            height:380px;
+          }
+
+       }
+
+    .navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    border-style: solid;
+    border-color:white;
+    font-size: 1.3em;
+    background-color:white;
+    min-height: 90px;
+    padding-top: 20px;
+    color: white;
+    position: fixed;
+  }
+
+  #brand{
+    font-size: 1.3em;
+    padding-top: 3px;
+    color: white;
+    transform: scale(1.1);
+  }
+
+
+  .navbar-nav>.active>a{
+    border-bottom:3px solid white;
+    background-color: white;
+  }
+  .navbar-brand{
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .nav a{
+    color: white;
+    background-color:white;
+  }
+ .nav>li>a:hover{
+    color: black;
+    background-color: !important;
+    text-decoration: none;
+  }
+  .navbar-nav:focus,.navbar-nav:hover {
+    color: white;
+    background-color:transparent;
+    text-decoration: none;
+  }
+
+/*navbar 2*/
+
+#navigate{
+  color: #1a6095;
+  font-size : 20px;
+  background-color: white;
+}
+
+#navigate:hover{
+  border-top: 4px solid #1a6095;
+}
+
+/*corousel*/
+.carousel-inner img {
+
+    /*  -webkit-filter: grayscale(90%);
+     /* filter: grayscale(90%); *//* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+
+
+  /*contact form */
+  #fname,#Email,select, textarea{
+      width: 100%;
+      padding: 15px;
+      border: 2px solid  white;
+      border-bottom:  2px solid  #1a6095;
+      border-radius: 0px;
+      outline: none;
+      background-color: white;
+      -webkit-box-shadow: inset 0 0 0px 9999px white;
+  }
+
+  #submit{
+      background-color:#1a6095;
+      color: white;
+      padding: 12px 20px;
+      cursor: pointer;
+      text-align: center;
+      outline: none;
+      border: 1px solid #1a6095;
+      border-radius: 5px;
+      float:right;
+  }
+
+
+  #container {
+      border-radius: 8px;
+      background-color:white;
+      padding: 20px;
+      height:350px;
+  }
+
+
+  td {
+
+      width: 60%;
+      margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  #row:after {
+      content: "";
+      display: ;
+      clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+      td, #submit {
+          width: 100%;
+          margin-top: 0;
+      }
+  }
+  .jumbotron{
+  background-color: white;
+  }
+
+td{
+    border: 1px solid white;
+  }
+
+  #jumbo2{
+    border: 2px solid #1a6095;
+    border-radius: 0px;
+    height:314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #jumbo{
+    border-radius: 0px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1a6095;
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background :  white;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+    background-color: #1a6095;
+}
+
+#btsearch:focus{
+  outline: none;
+  -webkit-box-shadow: inset 0 0 0px 9999px #1a6095;
+}
+
+/*dropdown*/
+.dropbtn {
+    background-color: white;
+    color: #1a6095;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn:hover{
+  border-top: 4px solid #1a6095;
+}
+
+.dropbtn:focus{
+  outline: none;
+  -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #1a6095;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #1a6095;color:white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+
+/*sing in*/
+/* Full-width input fields */
+#user,#pass {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1a6095 ;
+    border-radius:5px;
+    box-sizing: border-box;
+    color:black;
+    font-size:18px;
+    outline: none;
+    -webkit-box-shadow: inset 0 0 0px 9999px #f2f2f2;
+}
+
+/* Set a style for all buttons */
+#sub{
+    background-color:  #1a6095;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#sub:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+#signup {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #1a6095;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+label{
+  color:black;
+  font-size:18;
+}
+
+
+  @media (max-width: 1025px){
+    #form{
+          background-color: white;
+          padding-top:15px;
+          padding-left:100px;
+          padding-right:100px;
+          height:390px;
+          }
+  }
+
+
+
+  @media (min-width: 1025px){
+    #form{
+           background-color: white;
+           padding:50px;
+
+         }
+  }
